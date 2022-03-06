@@ -15,7 +15,7 @@ git filter-branch -f --env-filter '
 ```
 
 you could also use `HEAD`
-```cmd
+```command
 git filter-branch -f --env-filter '
     GIT_AUTHOR_NAME='ShihTingJustin'
     GIT_AUTHOR_EMAIL='justinhuang777@gmail.com'
@@ -31,7 +31,7 @@ src: https://git-scm.com/docs/git-filter-branch
 
 make sure the email setting in git config is as same as GitHub email
 
-```cmd
+```command
 git config user.email
 ```
 
