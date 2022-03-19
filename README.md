@@ -1,6 +1,11 @@
 # git-note
 Just noted some approaches.
 
+### Remove latest commit
+```command
+git reset HEAD^ --hard
+```
+
 ### Reset author information for all commits
 
 for all branch
