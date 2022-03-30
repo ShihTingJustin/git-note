@@ -1,6 +1,16 @@
 # git-note
 Just noted some approaches.
 
+### Reomve local branch
+```command
+git branch -D <branch>
+```
+
+### Reomve remote branch
+```command
+git push --delete <remote> <branch>
+```
+
 ### Remove latest commit
 ```command
 git reset HEAD^ --hard
